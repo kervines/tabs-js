@@ -4,34 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabs JavaScript</title>
+  <title>Animais Veloses</title>
+  <link rel="shortcut icon" href="./icon/bolt-solid.svg" type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <script defer src="./js/script.js"></script>
 
 <body>
   <div class="container">
     <div class="image-container">
-      <img src="https://picsum.photos/id/237/600/400" alt="">
+      <img class="enable" src="https://images.pexels.com/photos/187835/pexels-photo-187835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="falcão-peregrino">
+      <img src="https://images.pexels.com/photos/6057031/pexels-photo-6057031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="guepardo">
+      <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossless,ret_img,w_1024/https://www.passaro.org/wp-content/uploads/2023/01/beija-flor-de-anna.jpg" alt="beija-flor-de-cabeça-magenta">
     </div>
     <div class="tabs-container">
       <nav class="tab-nav">
         <ul>
-          <li data-tab="1">STEP ONE</li>
-          <li data-tab="2">STEP TWO</li>
-          <li data-tab="3">STEP THREE</li>
+          <li data-tab='1' class="active">Falcão</li>
+          <li data-tab='2'>Guepardo</li>
+          <li data-tab='3'>Beija-flor</li>
         </ul>
       </nav>
-      <section class="tab-content" data-content="1">
-        <h2 class="title">Step one</h1>
-          <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quaerat recusandae reiciendis labore eius, nihil veritatis voluptatibus. Maiores, in quas! Possimus minima earum, sed consectetur sunt debitis, obcaecati est sit, inventore repellat porro mollitia doloremque? Velit nam corrupti amet iste earum praesentium sit totam nobis! Temporibus similique distinctio, modi harum odio neque sunt dolorem laudantium tenetur adipisci deleniti. Optio aperiam voluptas tempora minus autem iure maiores doloribus recusandae aliquid, officiis vitae impedit, non sint. Optio, nesciunt consequatur assumenda nemo similique maxime, excepturi iure, sint vel eveniet saepe! Aliquid amet sequi quasi quis voluptate vitae maiores quod, repellat quidem ea similique!</p>
+      <section class="tab-content enable" data-content="1">
+        <h2 class="title">Falcão-peregrino</h1>
+          <p class="paragraph">O animal mais rápido do mundo é o falcão-peregrino, ave de rapina que possui distribuição geográfica em todos os continentes do nosso planeta, com exceção da Antártida. No momento da caça, a ave pode realizar um mergulho no ar e atingir velocidades entre 320 e 390 km/h, de acordo com o que já conseguiu ser registrado do seu voo. Esta espécie de falcão se alimenta de outras aves e mede entre 34 e 58 cm, podendo pesar de 700 gramas até 1.5kg.</p>
       </section>
-      <section class="content desable" data-content="2">
-        <h2 class="title">Step two</h1>
-          <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quaerat recusandae reiciendis labore eius, nihil veritatis voluptatibus. Maiores, in quas! Possimus minima earum, sed consectetur sunt debitis, obcaecati est sit, inventore repellat porro mollitia doloremque? Velit nam corrupti amet iste earum praesentium sit totam nobis! Temporibus similique distinctio, modi harum odio neque sunt dolorem laudantium tenetur adipisci deleniti. Optio aperiam voluptas tempora minus autem iure maiores doloribus recusandae aliquid, officiis vitae impedit, non sint. Optio, nesciunt consequatur assumenda nemo similique maxime, excepturi iure, sint vel eveniet saepe! Aliquid amet sequi quasi quis voluptate vitae maiores quod, repellat quidem ea similique!</p>
+      <section class="tab-content " data-content="2">
+        <h2 class="title">Guepardo</h1>
+          <p class="paragraph">O guepardo, também conhecido como Chita, é o animal terrestre mais rápido do mundo. Ele pode atingir uma velocidade de até 130 km/h em solo e tem como habitat natural a savana, podendo ser encontrado especialmente ao longo do continente africano e do sudoeste da Ásia. Sua velocidade máxima, no entanto, só pode ser mantida por até 500 metros de corrida. Ele tem como principal método de caça a perseguição das presas em altas velocidades.</p>
       </section>
-      <section class="content desable" data-content="3">
-        <h2 class="title">Step three</h1>
-          <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quaerat recusandae reiciendis labore eius, nihil veritatis voluptatibus. Maiores, in quas! Possimus minima earum, sed consectetur sunt debitis, obcaecati est sit, inventore repellat porro mollitia doloremque? Velit nam corrupti amet iste earum praesentium sit totam nobis! Temporibus similique distinctio, modi harum odio neque sunt dolorem laudantium tenetur adipisci deleniti. Optio aperiam voluptas tempora minus autem iure maiores doloribus recusandae aliquid, officiis vitae impedit, non sint. Optio, nesciunt consequatur assumenda nemo similique maxime, excepturi iure, sint vel eveniet saepe! Aliquid amet sequi quasi quis voluptate vitae maiores quod, repellat quidem ea similique!</p>
+      <section class="tab-content" data-content="3">
+        <h2 class="title">Beija-flor-de-cabeça-magenta</h1>
+          <p class="paragraph">O lindo beija-flor-de-cabeça-magenta, também conhecido como beija-flor-de-anna, é uma espécie de colibri que tem como principal característica as cores rosadas ao redor de sua cabeça. O seu nome científico faz homenagem à aristocrata francesa Anne Debelle, que viveu durante o século XIX. Este belo pássaro pode atingir a impressionante velocidade de voo de 98 km/h.</p>
       </section>
     </div>
   </div>
