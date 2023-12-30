@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+.tabs-container {
+  background-color: tomato;
+  width: 600px;
+}
+.tab-nav ul {
+  display: flex;
+}
+[data-tab] {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  background-color: gray;
+}
+[data-tab]:hover {
+  background-color: rgb(255, 157, 140);
+  cursor: pointer;
+}
+[data-tab].active {
+  background-color: tomato;
+}
+.tab-content {
+  padding: 20px;
+}
+/* class para desabilitar paragrafo */
+.desable {
+  display: none;
+}
