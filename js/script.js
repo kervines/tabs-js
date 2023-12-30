@@ -5,16 +5,16 @@ function initTabSection() {
 
   function activeContent(index) {
     sectionContents.forEach((content) => {
-      content.classList.add('desable');
+      content.classList.remove('enable');
     });
-    sectionContents[index].classList.remove('desable');
+    sectionContents[index].classList.add('enable');
   }
 
   function activeImage(index) {
     imagesEl.forEach((img) => {
-      img.classList.add('desable');
+      img.classList.remove('enable');
     });
-    imagesEl[index].classList.remove('desable');
+    imagesEl[index].classList.add('enable');
   }
 
   function activeTabs(event) {
